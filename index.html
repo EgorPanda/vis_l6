@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Site</title>
+    <style>
+        /* Ретро стиль */
+        body {
+            background-color: #1a1a1a;
+            color: #00ff00;
+            font-family: "Courier New", Courier, monospace;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px #ff00ff;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            background-color: #333333;
+            color: #00ff00;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px #000;
+        }
+
+        button {
+            background-color: #333333;
+            color: #00ff00;
+            border: 1px solid #00ff00;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px #000;
+        }
+
+        button:hover {
+            background-color: #444444;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Retro Static Data Viewer</h1>
+    <ul id="data-list">
+        <!-- Данные из index.js появятся здесь -->
+    </ul>
+    <button onclick="addItem()">Добавить элемент</button>
+    <footer>
+        &copy; 2024 RetroSite Inc.
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
